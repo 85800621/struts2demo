@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin:80px auto;
+    width: 320px;
+    height: 325px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: lightgray;
+}
+
+.input-group{
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-localtion{
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-default{
+    color: #02bd9b;
+}
+
+h1{
+    color: #02bd9b;
+    font-size: 64px;
+    font-family: "Segoe UI Light";
+    line-height: 60px;
+}
+
+h4{
+    color: darkgray;
+    font-size: 13px;
+    font-family: "Segoe UI Light";
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.devMode" value="true"/>
+
+    <package name="basicstruts2" extends="struts-default">
+
+        <action name="Loginaction1" method="login" class="com.qianfeng.struts2demo.action.IndexAction1">
+            <result>/success.jsp</result>
+        </action>
+
+        <action name="Loginaction2" method="login" class="com.qianfeng.struts2demo.action.IndexAction2">
+            <result>/success2.jsp</result>
+        </action>
+
+        <action name="Loginaction3" method="login" class="com.qianfeng.struts2demo.action.IndexAction3">
+            <result>/success3.jsp</result>
+        </action>
+
+        <action name="Loginaction4" method="login" class="com.qianfeng.struts2demo.action.IndexAction4">
+            <result>/success4.jsp</result>
+        </action>
+
+    </package>
+</struts>
